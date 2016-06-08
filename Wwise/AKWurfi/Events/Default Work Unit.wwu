@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7BD34E12-F357-4237-A152-F49C4FDCEF27}" SchemaVersion="70">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{7BD34E12-F357-4237-A152-F49C4FDCEF27}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Intro_Music" ID="{411A5E16-F62D-4B30-8645-B9EFBCB46A87}">
+					<ChildrenList>
+						<Action Name="Play" ID="{700BB80D-47D6-4E17-BF8B-E4B6F0CB9A25}" ShortID="12885707" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{84FC713C-56AF-45D5-A9B2-445BA4AE7854}" Global="false">
+									<ObjectRef Name="319781__tristan-lohengrin__medieval-introduction" ID="{844CE406-77E9-44F5-B431-CF63482C4D2D}" WorkUnitID="{C44EE2C1-A034-4C74-A1FD-6E16F2FD411D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Thrown" ID="{11BBD886-903D-456B-B871-D9DD592EA8C5}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6E7E317C-0F4A-4A1D-8D76-A7BF5E80410B}" ShortID="195439367" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{735AB570-D715-4212-9EF5-718F4F6FE463}" Global="false">
+									<ObjectRef Name="Random contact" ID="{D791A794-07A2-43A2-A843-AF51B1032A95}" WorkUnitID="{C44EE2C1-A034-4C74-A1FD-6E16F2FD411D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
