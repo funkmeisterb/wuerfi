@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{80BF75DD-258A-4022-CF20-719B26C264AB}</ProjectGuid>
+    <ProjectGuid>{C139B5F7-8CF8-E88C-1E50-9968EC4BF5A8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AssemblyName>Assembly-CSharp</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -179,6 +179,10 @@
   <ItemGroup>
     <None Include="Assets\Dice\-Read-Me-.txt" />
     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+    <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Android\Init.txt" />
+    <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Android\New_SoundBank.txt" />
+    <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Android\PluginInfo.xml" />
+    <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Android\SoundbanksInfo.xml" />
     <None Include="Assets\StreamingAssets\desc.txt" />
     <None Include="Assets\Wwise\Readme.txt" />
     <None Include="Assets\Wwise\Version.txt" />

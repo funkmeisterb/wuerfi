@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1009565364	Play_Intro_Music			\Default Work Unit\Play_Intro_Music	
+	3260579288	Play_Thrown			\Default Work Unit\Play_Thrown	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	184946376	319781__tristan-lohengrin__medieval-introduction	D:\DEV\WURFI\wurfi\Wwise\AKWurfi\.cache\Android\SFX\319781__tristan-lohengrin__medieval-introduction_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intro Music\319781__tristan-lohengrin__medieval-introduction		5021236
+	475895134	167566__chinesewhite__2-dice_05	D:\DEV\WURFI\wurfi\Wwise\AKWurfi\.cache\Android\SFX\167566__chinesewhite__2-dice_AC9F115F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dice on surface\Random contact\167566__chinesewhite__2-dice_05		73392
+	519239850	167566__chinesewhite__2-dice	D:\DEV\WURFI\wurfi\Wwise\AKWurfi\.cache\Android\SFX\167566__chinesewhite__2-dice_1DDE475A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dice on surface\Random contact\167566__chinesewhite__2-dice		51032
+	737618625	167566__chinesewhite__2-dice_03	D:\DEV\WURFI\wurfi\Wwise\AKWurfi\.cache\Android\SFX\167566__chinesewhite__2-dice_CA7E3FDA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dice on surface\Random contact\167566__chinesewhite__2-dice_03		94272
+	854762051	167566__chinesewhite__2-dice_01	D:\DEV\WURFI\wurfi\Wwise\AKWurfi\.cache\Android\SFX\167566__chinesewhite__2-dice_7724E54D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dice on surface\Random contact\167566__chinesewhite__2-dice_01		103316
+	980612591	167566__chinesewhite__2-dice_02	D:\DEV\WURFI\wurfi\Wwise\AKWurfi\.cache\Android\SFX\167566__chinesewhite__2-dice_45827AE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dice on surface\Random contact\167566__chinesewhite__2-dice_02		65688
+	1001339350	167566__chinesewhite__2-dice_04	D:\DEV\WURFI\wurfi\Wwise\AKWurfi\.cache\Android\SFX\167566__chinesewhite__2-dice_8CD1F159.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dice on surface\Random contact\167566__chinesewhite__2-dice_04		101784
+
