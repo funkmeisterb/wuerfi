@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="10" SoundbankVersion="113">
 	<RootPaths>
-		<ProjectRoot>D:\DEV\WURFI\wurfi\Wwise\AKWurfi\</ProjectRoot>
-		<SourceFilesRoot>D:\DEV\WURFI\wurfi\Wwise\AKWurfi\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>D:\DEV\WURFI\wurfi\Wwise\AKWurfi\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\</ProjectRoot>
+		<SourceFilesRoot>D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\DEV\WURFI\wurfi\Wwise\AKWurfi\GeneratedSoundBanks\Android\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\GeneratedSoundBanks\Android\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -29,27 +29,27 @@
 				</File>
 				<File Id="475895134" Language="SFX">
 					<ShortName>167566__chinesewhite__2-dice.wav</ShortName>
-					<Path>SFX\167566__chinesewhite__2-dice_AC9F115F.wem</Path>
+					<Path>SFX\167566__chinesewhite__2-dice_7ECD289D.wem</Path>
 				</File>
 				<File Id="519239850" Language="SFX">
 					<ShortName>167566__chinesewhite__2-dice.wav</ShortName>
-					<Path>SFX\167566__chinesewhite__2-dice_1DDE475A.wem</Path>
+					<Path>SFX\167566__chinesewhite__2-dice_3A575D38.wem</Path>
 				</File>
 				<File Id="737618625" Language="SFX">
 					<ShortName>167566__chinesewhite__2-dice.wav</ShortName>
-					<Path>SFX\167566__chinesewhite__2-dice_CA7E3FDA.wem</Path>
+					<Path>SFX\167566__chinesewhite__2-dice_957FCF83.wem</Path>
 				</File>
 				<File Id="854762051" Language="SFX">
 					<ShortName>167566__chinesewhite__2-dice.wav</ShortName>
-					<Path>SFX\167566__chinesewhite__2-dice_7724E54D.wem</Path>
+					<Path>SFX\167566__chinesewhite__2-dice_839F0016.wem</Path>
 				</File>
 				<File Id="980612591" Language="SFX">
 					<ShortName>167566__chinesewhite__2-dice.wav</ShortName>
-					<Path>SFX\167566__chinesewhite__2-dice_45827AE9.wem</Path>
+					<Path>SFX\167566__chinesewhite__2-dice_DBAC3AA5.wem</Path>
 				</File>
 				<File Id="1001339350" Language="SFX">
 					<ShortName>167566__chinesewhite__2-dice.wav</ShortName>
-					<Path>SFX\167566__chinesewhite__2-dice_8CD1F159.wem</Path>
+					<Path>SFX\167566__chinesewhite__2-dice_49259E33.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

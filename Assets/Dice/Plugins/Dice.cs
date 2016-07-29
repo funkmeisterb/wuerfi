@@ -34,15 +34,15 @@ public class Dice : MonoBehaviour {
 
 	// rollSpeed determines how many seconds pass between rolling the single dice
     public float rollSpeed = 0.25F;
-	
-	// rolling = true when there are dice still rolling, rolling is checked using rigidBody.velocity and rigidBody.angularVelocity
+
+    // rolling = true when there are dice still rolling, rolling is checked using rigidBody.velocity and rigidBody.angularVelocity
     public static bool rolling = true;
 
-	//------------------------------------------------------------------------------------------------------------------------------
-	// protected and private attributes
-	//------------------------------------------------------------------------------------------------------------------------------
+    //------------------------------------------------------------------------------------------------------------------------------
+    // protected and private attributes
+    //------------------------------------------------------------------------------------------------------------------------------
 
-	// keep rolling time to determine when dice to be rolled, have to be instantiated
+    // keep rolling time to determine when dice to be rolled, have to be instantiated
     protected float rollTime = 0;
 	
 	// material cache

@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="70">
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1575379305" DateHigh="30533988"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="125604096" DateHigh="30449199"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="125604096" DateHigh="30449199"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Actor-Mixer Hierarchy\Instrument Work Unit.wwu" DateLow="4061847916" DateHigh="30523308"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\AKWurfi.Bruno Angeles.wsettings" DateLow="1859221007" DateHigh="30534057"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\AKWurfi.wproj" DateLow="3614009996" DateHigh="30523316"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Attenuations\Default Work Unit.wwu" DateLow="814903805" DateHigh="30523308"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Control Surface Sessions\Default Work Unit.wwu" DateLow="814992749" DateHigh="30523308"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Conversion Settings\Default Work Unit.wwu" DateLow="815333976" DateHigh="30523308"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Conversion Settings\Factory Conversion Settings.wwu" DateLow="125604096" DateHigh="30449199"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Dynamic Dialogue\Default Work Unit.wwu" DateLow="814933921" DateHigh="30523308"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Effects\Default Work Unit.wwu" DateLow="814302513" DateHigh="30523308"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Effects\Factory Auro Headphone.wwu" DateLow="125604096" DateHigh="30449199"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Effects\Factory Effects.wwu" DateLow="125604096" DateHigh="30449199"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Effects\Factory iZotope Box Modeler.wwu" DateLow="3928580864" DateHigh="30450666"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Effects\Factory iZotope Delay.wwu" DateLow="85604096" DateHigh="30449199"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Effects\Factory iZotope Dynamics.wwu" DateLow="85604096" DateHigh="30449199"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Effects\Factory iZotope Filters.wwu" DateLow="85604096" DateHigh="30449199"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="85604096" DateHigh="30449199"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="85604096" DateHigh="30449199"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="85604096" DateHigh="30449199"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Effects\Factory McDSP Effects.wwu" DateLow="125604096" DateHigh="30449199"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Events\Default Work Unit.wwu" DateLow="443322614" DateHigh="30523313"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Game Parameters\Default Work Unit.wwu" DateLow="814867503" DateHigh="30523308"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="125604096" DateHigh="30449199"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="3757590316" DateHigh="30523308"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="814528256" DateHigh="30523308"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Mixing Sessions\Default Work Unit.wwu" DateLow="815424252" DateHigh="30523308"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Modulators\Default Work Unit.wwu" DateLow="815388838" DateHigh="30523308"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Presets\Default Work Unit.wwu" DateLow="814337279" DateHigh="30523308"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Queries\Default Work Unit.wwu" DateLow="814427867" DateHigh="30523308"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Queries\Factory Queries.wwu" DateLow="125604096" DateHigh="30449199"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\SoundBanks\Default Work Unit.wwu" DateLow="1770736152" DateHigh="30523313"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Soundcaster Sessions\Default Work Unit.wwu" DateLow="814387926" DateHigh="30523308"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\States\Default Work Unit.wwu" DateLow="814267203" DateHigh="30523308"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Switches\Default Work Unit.wwu" DateLow="814807311" DateHigh="30523308"/>
+	<ValidationCacheItem File="D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\Triggers\Default Work Unit.wwu" DateLow="814958648" DateHigh="30523308"/>
 	<ValidationCacheItem File="D:\DEV\WURFI\wurfi\Wwise\AKWurfi\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="4269581355" DateHigh="30523312"/>
 	<ValidationCacheItem File="D:\DEV\WURFI\wurfi\Wwise\AKWurfi\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="125604096" DateHigh="30449199"/>
 	<ValidationCacheItem File="D:\DEV\WURFI\wurfi\Wwise\AKWurfi\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="125604096" DateHigh="30449199"/>

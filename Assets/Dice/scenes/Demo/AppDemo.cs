@@ -30,6 +30,8 @@ public class AppDemo : MonoBehaviour {
     private static Vector3 deltaAcceleration;
     private static Vector3 lastForceApplied = Vector3.zero;
     private static bool hideGui = false;
+    private static bool allowRoll = true; // whether or not to allow a new dice roll
+    private static bool allowRollPrevious = true; // whether or not to allow a new dice roll
 
     // constant of current demo mode
     private const int MODE_GALLERY = 1;
@@ -175,13 +177,19 @@ public class AppDemo : MonoBehaviour {
                     Vector3 force = new Vector3(acceleration.x, acceleration.y, acceleration.z);
                     Vector3 multiplier = new Vector3(1.0f, 1.0f, 1.0f);
                     Vector3 finalForce = new Vector3(force.x * multiplier.x, force.y * multiplier.y, force.z * multiplier.z);
-                    ThrowForGame(Force()); // TODO: apply right force
+                    if (allowRoll)
+                    {
+                        ThrowForGame(Force()); // TODO: apply right force
+                    }
                 }
                 UpdateRoll();
 
                 if (Input.GetKeyDown("space"))
                 {
-                    ThrowForGame(Force());
+                    if (allowRoll)
+                    {
+                        ThrowForGame(Force());
+                    }
                 }
                 else if (Input.GetKeyDown("h"))
                 {
@@ -285,27 +293,16 @@ public class AppDemo : MonoBehaviour {
 	{
         spawnPoint = GameObject.Find("spawnPoint");
         // check if we have to roll dice
-        if (Input.GetMouseButtonDown(Dice.MOUSE_LEFT_BUTTON) && !PointInRect(GuiMousePosition(), rectModeSelect))
-		{
-            // left mouse button clicked so roll random colored dice 2 of each dieType
-            Dice.Clear();
-
-            Dice.Roll("1d10", "d10-" + randomColor, spawnPoint.transform.position, Force());
-            Dice.Roll("1d10", "d10-" + randomColor, spawnPoint.transform.position, Force());
-            Dice.Roll("1d10", "d10-" + randomColor, spawnPoint.transform.position, Force());
-            Dice.Roll("1d10", "d10-" + randomColor, spawnPoint.transform.position, Force());
-            Dice.Roll("1d6", "d6-" + randomColor, spawnPoint.transform.position, Force());
-            Dice.Roll("1d6", "d6-" + randomColor, spawnPoint.transform.position, Force());
-            Dice.Roll("1d6", "d6-" + randomColor, spawnPoint.transform.position, Force());
-            Dice.Roll("1d6", "d6-" + randomColor, spawnPoint.transform.position, Force());
-		}
-        else
-        if (Input.GetMouseButtonDown(Dice.MOUSE_RIGHT_BUTTON) && !PointInRect(GuiMousePosition(), rectModeSelect))
+        if (allowRoll)
         {
-            // right mouse button clicked so roll 8 dice of dieType 'gallery die'
-            Dice.Clear();
-            string[] a = galleryDie.Split('-');
-            Dice.Roll("8" + a[0], galleryDie, spawnPoint.transform.position, Force());
+            if (Input.GetMouseButtonDown(Dice.MOUSE_LEFT_BUTTON) && !PointInRect(GuiMousePosition(), rectModeSelect))
+            {
+                ThrowForGame(Force());
+            }
+            else if (Input.GetMouseButtonDown(Dice.MOUSE_RIGHT_BUTTON) && !PointInRect(GuiMousePosition(), rectModeSelect))
+            {
+                ThrowForGame(Force());
+            }
         }
     }
 	
@@ -375,11 +372,15 @@ public class AppDemo : MonoBehaviour {
                 var ptRoll = new Vector4(ptMenu2.x, 35, ptMenu2.z, ptMenu2.w);
                 if (!hideGui)
                 {
-                    if (GUI.Button(new Rect(ptRoll.x, ptRoll.y, ptRoll.z, ptRoll.w), "Roll dice!"))
+                    if (GUI.Button(new Rect(ptRoll.x, ptRoll.y, ptRoll.z, ptRoll.w), "Roll dice!") && allowRoll)
                     {
                         var f = Force();
                         ThrowForGame(f);
                     }
+
+                    GUI.Box(new Rect((Screen.width - 350) / 2, Screen.height - 40, 350, 25), "");
+                    string fps = "FPS: " + ((int)(1.0f / Time.deltaTime)).ToString();
+                    GUI.Label(new Rect(((Screen.width - 350) / 2) + 10, Screen.height - 38, 350, 22), fps);
                 }
                 // Display last force applied
                 //GUI.Box(new Rect(10, Screen.height - 125, Screen.width - 20, 30), "");
@@ -393,6 +394,20 @@ public class AppDemo : MonoBehaviour {
                     GUI.Box(new Rect(10, Screen.height - 75, Screen.width - 20, 30), "");
                     var strDice = Dice.AsString("");
                     GUI.Label(new Rect(20, Screen.height - 70, Screen.width, 20), strDice);
+                }
+
+                if (Dice.rolling && !allowRollPrevious)
+                {
+                    Debug.Log("Rolling");
+                    allowRoll = false;
+                    allowRollPrevious = true;
+                }
+                else if (!Dice.rolling && allowRollPrevious)
+                {
+                    Debug.Log("Not rolling anymore");
+                    // allow roll
+                    allowRoll = true;
+                    allowRollPrevious = false;
                 }
 
 				break;

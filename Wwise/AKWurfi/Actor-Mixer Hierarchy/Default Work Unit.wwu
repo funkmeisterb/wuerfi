@@ -16,6 +16,11 @@
 						<Sound Name="319781__tristan-lohengrin__medieval-introduction" ID="{844CE406-77E9-44F5-B431-CF63482C4D2D}" ShortID="1057087142" Type="SoundFX">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
