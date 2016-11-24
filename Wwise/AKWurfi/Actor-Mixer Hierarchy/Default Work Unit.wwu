@@ -223,6 +223,60 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="Dice music" ID="{327AD07B-2895-42DE-A97E-758C7644AF45}" ShortID="489949062" Type="SoundFX">
+					<PropertyList>
+						<Property Name="MidiBreakOnNoteOff" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DEC7B071-F492-4F84-A388-584E2644B385}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6468C3C9-1B5B-4534-BB31-DD98EB93F91D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Synth One" ID="{7E895FCA-39AE-4FFA-BFC9-F13E6D931560}" ShortID="1062326052" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<PropertyList>
+								<Property Name="FrequencyMode" Type="int32" Value="1"/>
+								<Property Name="OutputLevel" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{1C604D5C-2778-44DD-AD1A-7560188FE5AD}" ShortID="830104209">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{2CE7B655-EAD0-4D5D-98E1-36B99A33C535}" ShortID="489052413"/>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{5C94403F-6DCF-405E-912E-4063F143560E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-96</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Synth One" ID="{7E895FCA-39AE-4FFA-BFC9-F13E6D931560}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

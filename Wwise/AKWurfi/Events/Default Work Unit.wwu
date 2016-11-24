@@ -25,6 +25,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_MozartDiceGame" ID="{8BD646D1-0E1D-4702-B734-7F3FED6B4E2F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{54C4982D-0A50-4FBD-A79D-FF9EEEEB23BE}" ShortID="373056649" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{AB4E3D91-BCBF-4701-9B02-D4422E15A2FB}" Global="false">
+									<ObjectRef Name="MozartDiceGame" ID="{13F26AF2-6D15-40A1-8755-0100F4FA3978}" WorkUnitID="{3DA5E2A3-659B-4059-BC3F-E7D6B6D31D54}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
