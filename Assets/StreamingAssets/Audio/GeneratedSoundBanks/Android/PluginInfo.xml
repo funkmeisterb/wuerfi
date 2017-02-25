@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PluginInfo Project="AKWurfi" Platform="Android" Motion="false">
+<PluginInfo Project="AKWurfi" Platform="Android" BasePlatform="Android">
 	<Plugins/>
 </PluginInfo>
