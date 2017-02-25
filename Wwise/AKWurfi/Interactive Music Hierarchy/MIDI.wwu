@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{3DA5E2A3-659B-4059-BC3F-E7D6B6D31D54}" SchemaVersion="70" RootDocumentID="{AE1BDDE6-9BFB-43DB-A29B-BEF2DC7FC9D1}">
+<WwiseDocument Type="WorkUnit" ID="{3DA5E2A3-659B-4059-BC3F-E7D6B6D31D54}" SchemaVersion="75" RootDocumentID="{AE1BDDE6-9BFB-43DB-A29B-BEF2DC7FC9D1}">
 	<InteractiveMusic>
 		<WorkUnit Name="MIDI" ID="{3DA5E2A3-659B-4059-BC3F-E7D6B6D31D54}" OwnerID="{AE1BDDE6-9BFB-43DB-A29B-BEF2DC7FC9D1}" PersistMode="Nested">
 			<ChildrenList>

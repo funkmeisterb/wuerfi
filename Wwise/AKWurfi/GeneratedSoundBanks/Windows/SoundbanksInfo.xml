@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\</ProjectRoot>
-		<SourceFilesRoot>D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\DEV\UNITY\wuerfi_original\Wwise\AKWurfi\</ProjectRoot>
+		<SourceFilesRoot>D:\DEV\UNITY\wuerfi_original\Wwise\AKWurfi\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\DEV\UNITY\wuerfi_original\Wwise\AKWurfi\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\DEV\WURFI\wuerfi\Wwise\AKWurfi\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\DEV\UNITY\wuerfi_original\Wwise\AKWurfi\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
 		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="4072029455" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1009565364" Name="Play_Intro_Music"/>
-				<Event Id="3260579288" Name="Play_Thrown"/>
+				<Event Id="1009565364" Name="Play_Intro_Music" ObjectPath="\Events\Default Work Unit\Play_Intro_Music"/>
+				<Event Id="3260579288" Name="Play_Thrown" ObjectPath="\Events\Default Work Unit\Play_Thrown"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="184946376" Language="SFX">
